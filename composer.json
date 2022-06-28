@@ -2,6 +2,7 @@
     "name": "kaimolla-rustem/laravel-translation",
     "description": "Laravel translation package",
     "type": "package",
+    "license": "MIT",
     "require": {
         "orchestra/testbench": "^7.5",
         "yandex/translate-api": "^1.5"
