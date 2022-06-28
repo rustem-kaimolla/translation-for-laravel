@@ -3,17 +3,28 @@
     "description": "Laravel translation package",
     "type": "package",
     "require": {
-        "orchestra/testbench": "^7.5"
+        "orchestra/testbench": "^7.5",
+        "yandex/translate-api": "^1.5"
     },
     "autoload": {
         "psr-4": {
             "KaimollaRustem\\LaravelTranslation\\": "src/"
-        }
+        },
+        "files": [
+            "helpers/app.php"
+        ]
     },
     "authors": [
         {
             "name": "Rustem Kaimolla",
             "email": "rustem@exact.kz"
         }
-    ]
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KaimollaRustem\\LaravelTranslation\\ServiceProvider"
+            ]
+        }
+    }
 }

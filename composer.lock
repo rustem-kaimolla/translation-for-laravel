@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "edb9718352e064e2615bf34e6512685b",
+    "content-hash": "1159c1dd5021b56b1e8fd66f088c5175",
     "packages": [
         {
             "name": "brick/math",
@@ -7411,6 +7411,47 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "yandex/translate-api",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yandex-php/translate-api.git",
+                "reference": "c99e69cde3e688fc0f99c4d8a21585226a8e1938"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yandex-php/translate-api/zipball/c99e69cde3e688fc0f99c4d8a21585226a8e1938",
+                "reference": "c99e69cde3e688fc0f99c4d8a21585226a8e1938",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yandex\\Translate\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Gusakov",
+                    "email": "dev@nkt.me"
+                }
+            ],
+            "description": "Client for Yandex.Translate API",
+            "support": {
+                "issues": "https://github.com/yandex-php/translate-api/issues",
+                "source": "https://github.com/yandex-php/translate-api/tree/1.5.2"
+            },
+            "time": "2015-07-27T15:00:45+00:00"
         },
         {
             "name": "zbateson/mail-mime-parser",
