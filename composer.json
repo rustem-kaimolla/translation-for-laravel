@@ -1,0 +1,19 @@
+{
+    "name": "kaimolla-rustem/laravel-translation",
+    "description": "Laravel translation package",
+    "type": "package",
+    "require": {
+        "orchestra/testbench": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "KaimollaRustem\\LaravelTranslation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rustem Kaimolla",
+            "email": "rustem@exact.kz"
+        }
+    ]
+}
