@@ -29,7 +29,7 @@ class TranslationService
             $translation = Translation::find(md5($key));
         }
 
-        return $translation->translations[$locale] ?? null;
+        return $translation->translations[$locale] ?? $key;
     }
 
     /**
