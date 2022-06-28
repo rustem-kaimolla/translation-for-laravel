@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KaimollaRustem\\LaravelTranslation\\ServiceProvider"
+                "KaimollaRustem\\LaravelTranslation\\Providers\\ServiceProvider"
             ]
         }
     }

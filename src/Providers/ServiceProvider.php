@@ -1,6 +1,6 @@
 <?php
 
-namespace KaimollaRustem\LaravelTranslation;
+namespace KaimollaRustem\LaravelTranslation\Providers;
 
 /**
  * Қызметті орнату
